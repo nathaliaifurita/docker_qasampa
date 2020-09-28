@@ -34,6 +34,12 @@ Se já tiver o projeto na máquina, navegue até a pasta do projeto:
 - `git pull origin master`
 
 Comandos docker úteis usados durante o workshop:
+ - `docker-compose up -d`
+ - `docker-compose down`
+ - `docker ps`
+ - `docker kill [imagem]`
+ - `docker-compose up -d && docker-compose logs -f`
+ - `docker images`
  - `docker rmi 66eec732ac0d`
  - ```docker rm `docker ps -a -q` ```
  - `docker run -it debian:testing-slim /bin/bash`
