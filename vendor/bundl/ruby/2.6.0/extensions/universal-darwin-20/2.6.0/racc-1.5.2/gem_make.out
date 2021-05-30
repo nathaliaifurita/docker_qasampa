@@ -1,0 +1,20 @@
+current directory: /Users/nathaliafreire/Workspace/docker_qasampa/vendor/bundl/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210530-5448-1r6egne.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/nathaliafreire/Workspace/docker_qasampa/vendor/bundl/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/nathaliafreire/Workspace/docker_qasampa/vendor/bundl/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file cparse.o, building for macOS-arm64e but attempting to link with file built for unknown-arm64
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file cparse.o, building for macOS-x86_64 but attempting to link with file built for unknown-arm64
+
+current directory: /Users/nathaliafreire/Workspace/docker_qasampa/vendor/bundl/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210530-5448-wwz59r/racc
